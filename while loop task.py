@@ -1,26 +1,26 @@
 # 1. Print 1 to 10
 # Write a program to print numbers from 1 to 10 using a while loop
 
-# i=1
-# while (i<=10):
-#     print(i)
-#     i=i+1
+i=1
+while (i<=10):
+    print(i)
+    i=i+1
 
 #      Print Even Numbers
 # Print even numbers from 2 to 20 using a while loop.
 
-# i=2
-# while (i<=20):
-#     print(i)
-#     i=i+2
+i=2
+while (i<=20):
+    print(i)
+    i=i+2
 
 #     Print Odd Numbers
 # Print odd numbers from 1 to 19 using a while loop.
 
-# i=1
-# while(i<=20):
-#     print(i)
-#     i=i+1
+i=1
+while(i<=20):
+    print(i)
+    i=i+1
 
 #     Sum of First N Numbers
 # Take an integer input n and find the sum of numbers from 1 to n.
