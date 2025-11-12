@@ -54,7 +54,7 @@ print("hi123".isalnum())#true if only letters/numbers
 # print(d.isspace())
 # print(d.istitle())
 
-# print(s.split())# split string into list
+print(s.split())# split string into list
 # print(s.split("o"))
 # print(s.split("."))
 # print(",".join(s))#join list with sperator
