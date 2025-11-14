@@ -9,33 +9,33 @@
 
 # # ðŸŽ¯ Goal: Create objects for both Car and Bike and print their details.
 
-# # class vehicle():
+class vehicle():
 
 
-# #     def __init__(self,brand,mod,date):
-# #         self.brand=brand
-# #         self._mod=mod
-# #         self.__date=date
+    def __init__(self,brand,mod,date):
+        self.brand=brand
+        self._mod=mod
+        self.__date=date
 
        
 
-# #     def getmod(self):
-# #         return self.__date
+    def getmod(self):
+        return self.__date
     
-# #     def setmod(self,value):
-# #         self.__date=value
+    def setmod(self,value):
+        self.__date=value
 
 
         
        
     
-# # vehicle1=vehicle('hero',2000,15)
-# # print(vehicle1.brand)
-# # print(vehicle1._mod)
+vehicle1=vehicle('hero',2000,15)
+print(vehicle1.brand)
+print(vehicle1._mod)
 
-# # print(vehicle1.getmod())
-# # vehicle1.setmod(0)
-# # print(vehicle1.getmod())
+print(vehicle1.getmod())
+vehicle1.setmod(0)
+print(vehicle1.getmod())
 
 
 # # # ðŸ”¹ Task 2: School Management
@@ -50,26 +50,26 @@
 # # ðŸŽ¯ Goal: Create objects for a student and a teacher, and display their information.
 
 
-# class student():
+class student():
 
-#     def __init__(self,name,age,grade):
-#         self.name=name
-#         self._age=age
-#         self.__grade=grade
+    def __init__(self,name,age,grade):
+        self.name=name
+        self._age=age
+        self.__grade=grade
        
-#     def getgrade(self):
-#         return self.__grade
-#     def setgrade(self,value):
-#         self.__grade=value
+    def getgrade(self):
+        return self.__grade
+    def setgrade(self,value):
+        self.__grade=value
 
 
-# student1=student('dinesh',20,90)
-# print(student1.name)
-# print(student1._age)
+student1=student('dinesh',20,90)
+print(student1.name)
+print(student1._age)
 
-# print(student1.getgrade())
-# student1.setgrade(0)
-# print(student1.getgrade())
+print(student1.getgrade())
+student1.setgrade(0)
+print(student1.getgrade())
 
 
 # # mobile number address
@@ -93,6 +93,30 @@ print(person1._address)
 print(person1.getnumber())
 person1.setnumber(0)
 print(person1.getnumber())
+
+
+# company email 
+
+class student():
+
+    def __init__(self,company,email,no):
+        self.company=company
+        self._email=email
+        self.__no=no
+    def getno(self):
+        return self.__no
+    def setno(self,value):
+        self.__no=value
+
+student1=student('gt','gt122@gmail.com',85433222222)
+print(student1.company)
+print(student1._email) 
+
+print(student1.getno())
+student1.setno(0)
+print(student1.getno())
+          
+        
         
 
 

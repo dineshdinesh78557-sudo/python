@@ -193,6 +193,7 @@ class child(customer):
     
 st1=child('dinesh',9877655444,'platinum')
 print(st1)
+print(st1.providemessage())
     
 
 
