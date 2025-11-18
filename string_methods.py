@@ -2,25 +2,25 @@
 
 s = "hello Python... welcome..."
 
-# print(s.capitalize())
-# print(s.upper())
-# print(s.title())
-# print(s.swapcase())
-# print(s.lower())
-# print(s.strip())  # remove extra spaces
-# print(s.lstrip())
-# print(s.rstrip())
-# print(s.find("e"))# return index of first occurance
-# print(s.find("z"))
-# print(s.index("e"))
+print(s.capitalize())
+print(s.upper())
+print(s.title())
+print(s.swapcase())
+print(s.lower())
+print(s.strip())  # remove extra spaces
+print(s.lstrip())
+print(s.rstrip())
+print(s.find("e"))# return index of first occurance
+print(s.find("z"))
+print(s.index("e"))
 # print(s.index("z")) if it is not found it will raise error
-# print(s.count("e"))# count occurance  of a sub string
-# print(s.endswith(".."))
-# print(s.startswith("hello"))
-# print(s.isalpha())
-# print("hello".isalpha()) # it will check whether all are alphabets
-# print(s.isalnum()) # it will check alphabets + numerics
-# print("hello123".isalnum())
+print(s.count("e"))# count occurance  of a sub string
+print(s.endswith(".."))
+print(s.startswith("hello"))
+print(s.isalpha())
+print("hello".isalpha()) # it will check whether all are alphabets
+print(s.isalnum()) # it will check alphabets + numerics
+print("hello123".isalnum())
 
 
 # s="hi python... welcome..."

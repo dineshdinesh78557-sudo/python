@@ -1,19 +1,19 @@
 # variables, data types, operators
 # comments:  it wont read by python 
 
-# print(21321)  #predefined function
-# print("hello")
+print(21321)  #predefined function
+print("hello")
 
-# print(90+90)
-# print(180+23)
+print(90+90)
+print(180+23)
 
 # #variables: variable is like a container to store a value
 
-# name = "Dinesh"
-# my_age = 23
+name = "Dinesh"
+my_age = 23
 
-# print(name)
-# print(my_age)
+print(name)
+print(my_age)
 
 
 
@@ -25,35 +25,35 @@
 #5. keywords can not be used
 
 # data types: 
-#primitive datatypes
-#Int => eg: 90,8999,677
-#float => 90.89, 90.67
-#string => "hello","nme"
-#boolean : True or False (1 0r 0)
-#non primitive 
-#list => [90,87,45,23]
-#tuples => ("apple","orange","grapes"), (89,90,45)
-#sets => {89,23,14}
-#dictionary => {"name":"dinesh","mail":"dinesh@gmail.com"}
+# primitive datatypes
+# Int => eg: 90,8999,677
+# float => 90.89, 90.67
+# string => "hello","nme"
+# boolean : True or False (1 0r 0)
+# non primitive 
+# list => [90,87,45,23]
+# tuples => ("apple","orange","grapes"), (89,90,45)
+# sets => {89,23,14}
+# dictionary => {"name":"dinesh","mail":"dinesh@gmail.com"}
 
 
 #opeartors:
 #Arithmatic operators: +,-,*,/,%,//,**
 
-# print(2+8)
-# print(9-7)
-# print(2*3)
-# print(2**3) # 2^3(2*2*2)
-# print(10/2) # returns decimal value
-# print(10//2) # floor division(return integer value)
-# print(10/3)
-# print(10//3)
-# print(10%2) #  it will return remainder
-# print(10%3)
+print(2+8)
+print(9-7)
+print(2*3)
+print(2**3) # 2^3(2*2*2)
+print(10/2) # returns decimal value
+print(10//2) # floor division(return integer value)
+print(10/3)
+print(10//3)
+print(10%2) #  it will return remainder
+print(10%3)
 
-# #concatenation(joining)
-# print("a"+"b")
-# print("10"+"9")
+#concatenation(joining)
+print("a"+"b")
+print("10"+"9")
 
 #get inputs from terminal
 
@@ -70,15 +70,15 @@
 
 #comparison operator: >,<,>=,<=,==,!=
  
-# print(10>5) # it returns boolean value
-# print(10<5)
-# print(10<=16)
-# print(10>=9)
+print(10>5) # it returns boolean value
+print(10<5)
+print(10<=16)
+print(10>=9)
 
-# print(2==2)
-# print(3==9)
-# print(2!=8)
-# print(2!=2)
+print(2==2)
+print(3==9)
+print(2!=8)
+print(2!=2)
 
 
 # #logical operator: and , or , not
@@ -87,29 +87,29 @@
 
 # # #or: if any one of the condns gets true it will return true
 
-# print(10>2 or 23>2 or 12>34,"or")
+print(10>2 or 23>2 or 12>34,"or")
 
-# fruit = "banana"
-# veg = "caroot"
+fruit = "banana"
+veg = "caroot"
 
-# print(fruit == "apple" or veg=="caroot" )
+print(fruit == "apple" or veg=="caroot" )
 
 
 # # #not: it will reverse the result
 
-# print(not(12>2))
-# print(not(2<23))
-# print(not(fruit=="banana" or veg=="caroot"))
+print(not(12>2))
+print(not(2<23))
+print(not(fruit=="banana" or veg=="caroot"))
 
 
-# print(55>20) #return boolean value
-# print(50<25)
-# print(60<=32)
-# print(70>=35)
-# print(10==10)
-# print(90==90)
-# print(3!=2)
-# print(2!=2)
+print(55>20) #return boolean value
+print(50<25)
+print(60<=32)
+print(70>=35)
+print(10==10)
+print(90==90)
+print(3!=2)
+print(2!=2)
 
 print(2>30 or 29>10 or 44>88,"or")
 print(not(30>3))

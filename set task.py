@@ -101,7 +101,7 @@ list.extend([8,9])
 print(list)
 
 # # # 2. Given a list of daily temperatures for a week, find the highest, lowest, and average temperature.
-# temperature=[10,20,30]
+temperature=[10,20,30]
 
 highest=max(temperature)
 lowest=min(temperature)
